@@ -1,0 +1,22 @@
+/* App.css */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #f9f9f9, #e3f2fd);
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  color: #1565c0;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.MuiPaper-root {
+  transition: all 0.3s ease-in-out;
+}
+
+.MuiPaper-root:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
